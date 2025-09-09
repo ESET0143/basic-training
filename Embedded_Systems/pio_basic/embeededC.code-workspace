@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "pio_basic",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
