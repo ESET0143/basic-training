@@ -166,4 +166,13 @@ Find how much each user spent in total and rank them
 */
 
 
-
+SELECT 
+    u.user_id,
+    u.name,
+    SUM(b.price) AS TotalSpent,
+    RANK() OVER (ORDER BY SUM(b.price) DESC) AS RankNum,
+    DENSE_RANK() OVER (ORDER BY SUM(b.price) DESC) AS DenseRankNum
+FROM orders o
+JOIN users u ON o.user_id = u.user_id
+JOIN books b ON o.product_sku = b.product_sku
+GROUP BY u.user_id, u.name;
