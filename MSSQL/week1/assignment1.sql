@@ -23,3 +23,32 @@ select u.name, b.title
 from users u inner join orders o on u.user_id=o.user_id
 inner join books b on o.product_id=b.product_id 
 where b.price in(select max(price) from books);
+
+
+---1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
