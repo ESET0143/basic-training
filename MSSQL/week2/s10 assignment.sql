@@ -131,19 +131,6 @@ select getdate() as cuurent_time_and_date
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*CAST, CONVERT, CASE
 
 Tasks:
