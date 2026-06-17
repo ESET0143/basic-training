@@ -4,3 +4,4 @@ zasxcdvgb  kwf vo
 
 lines added in dev branch 
 this lineadded after adding git attributes 
+after this command PS C:\Users\MelamSurendra\Projects\basic-training> git config merge.ours.driver 
