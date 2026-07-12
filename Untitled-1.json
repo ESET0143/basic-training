@@ -1,0 +1,44 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "DBConfig": {
+    "MIS_MAIN": "Data Source=10.0.129.36,4701;Initial Catalog=MIS_MAIN;Persist Security Info=False;User ID=mis_prod;Password=TEI2gfyr5ncLwf;Pooling=True;Min Pool Size=5;Max Pool Size=75;Connection Timeout=15",
+    "MIS_Staging": "Data Source=10.0.129.36,4701;Initial Catalog=MIS_Staging;Persist Security Info=False;User ID=mis_prod;Password=TEI2gfyr5ncLwf;Pooling=True;Min Pool Size=5;Max Pool Size=75;Connection Timeout=15",
+    "ConsumerPortal": "Data Source=10.0.129.36,4701;Initial Catalog=ConsumerPortal;Persist Security Info=False;User ID=mis_prod;Password=TEI2gfyr5ncLwf;Pooling=True;Min Pool Size=5;Max Pool Size=75;Connection Timeout=15",
+    "MDMS_SSO": "Data Source=10.0.129.36,4701;Initial Catalog=MDMS_SSO;Persist Security Info=False;User ID=mis_prod;Password=TEI2gfyr5ncLwf;Pooling=True;Min Pool Size=5;Max Pool Size=75;Connection Timeout=15;TrustServerCertificate=True",
+    "MDMS_MASTER": "Data Source=10.0.129.36,4701;Initial Catalog=MDMS_MASTER;Persist Security Info=False;User ID=mis_prod;Password=TEI2gfyr5ncLwf;Pooling=True;Min Pool Size=5;Max Pool Size=75;Connection Timeout=15;TrustServerCertificate=True",
+    "Integration_Staging": "Data Source=10.0.129.36,4701;Initial Catalog=Integration_Staging;Persist Security Info=False;User ID=mis_prod;Password=TEI2gfyr5ncLwf;Pooling=True;Min Pool Size=5;Max Pool Size=75;Connection Timeout=15",
+    "PREPAID": "Data Source=10.0.129.36,4701;Initial Catalog=PREPAID;Persist Security Info=False;User ID=mis_prod;Password=TEI2gfyr5ncLwf;Pooling=True;Min Pool Size=5;Max Pool Size=75;Connection Timeout=15",
+    "smarthome": "Data Source=10.0.129.36,4701;Initial Catalog=smarthome;Persist Security Info=False;User ID=mis_prod;Password=TEI2gfyr5ncLwf;Pooling=True;Min Pool Size=5;Max Pool Size=75;Connection Timeout=15",
+    "MIS": "Data Source=10.0.129.34,4701;Initial Catalog=MIS;Persist Security Info=False;User ID=mdm_prod;Password=SLO6yd8aRUrhQU;Pooling=True;Min Pool Size=5;Max Pool Size=75;Connection Timeout=15",
+    "MIS2": "Data Source=10.0.129.34,4701;Initial Catalog=MIS;Persist Security Info=False;User ID=mdm_prod;Password=SLO6yd8aRUrhQU;Pooling=True;Min Pool Size=5;Max Pool Size=75;Connection Timeout=15",
+    "AIML": "Data Source=10.0.129.34,4701;Initial Catalog=aiml;Persist Security Info=False;User ID=mdm_prod;Password=SLO6yd8aRUrhQU;Pooling=True;Min Pool Size=5;Max Pool Size=75;Connection Timeout=15"
+  },
+  "AuthorisationServer": {
+    "Authority": "http://10.0.128.45:5005",
+    "Scope": "login",
+    "Grant_type": "password",
+    "Grant_type_refresh_token": "refresh_token",
+    "Client_id": "webapi",
+    "Client_secret": "WebApi#54321",
+    "Username": "administrator",
+    "Password": "Test@12345"
+  },
+  "EncryptionSettings": {
+    "UseEncryption": "0",
+    "Key": "4F0d8m4!#yGvU5#r9%9T@bE&dR7q8*1Z",
+    "IV": "6T@k%5M#yC3$Ff^R",
+    "TokenEncryption": 0
+  },
+  "Keys": {
+    "Salt": "7CmZ+C6RCg9L2q8P5VDt/3vB2tDiOIPm"
+  },
+  "ReCaptchaV3": {
+    "ReCaptchaV3BaseURL": "https://www.google.com/recaptcha/api/siteverify",
+    "SecretKey": "6Le_8pgsAAAAAObp2WlLVEHnwIaxR5IyWgqz272O"
+  }
