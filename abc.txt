@@ -1,1 +1,1 @@
-chrome=edges
+chrome=edge 28.8
