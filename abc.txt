@@ -1,1 +1,1 @@
-chrome=edges
+chrome=firfox
