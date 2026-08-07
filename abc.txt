@@ -1,1 +1,1 @@
-hbcqbdicdb
+chrome=firefox
